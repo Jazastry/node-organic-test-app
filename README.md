@@ -2,10 +2,11 @@
 
 ## setup
 
-    $ git clone github.com/node-organic/node-organic-web-app
-    $ cd ./Node Organic Web App
+    $ git clone https://github.com/Jazastry/node-organic-test-app
+    $ cd ./node-organic-test-app
     $ npm install
     $ npm install organic-angel -g
+    $ angel develop
 
 ## command line help
 
