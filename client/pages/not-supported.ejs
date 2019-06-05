@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <% include ./_layout/head.ejs %>
+    <link rel="stylesheet" type="text/css" href="<%= timestampUrl('/public/release/index.bundle.css') %>">
+  </head>
+  <body class="error-page">
+    <div class="wrapper">
+      <div class="container">
+        <h1>'Sorry!'</h1>
+        <div class="browser-support">
+          <div class="icons">
+            <a class="support-icon" href="https://www.google.com/chrome/browser" target="_blank">
+              <img src="/public/images/chrome-icon.png" />
+              <div>
+                Google Chrome
+              </div>
+            </a>
+            <a class="support-icon" href="https://www.mozilla.org/bg/firefox/new/" target="_blank">
+              <img src="/public/images/firefox-icon.png" />
+              <div>
+                Mozzila Firefox
+              </div>
+            </a>
+            <a class="support-icon" href="https://support.microsoft.com/en-us/help/18520/download-internet-explorer-11-offline-installer" target="_blank">
+              <img src="/public/images/ie-icon.png" />
+              <div>
+                Internet Explorer
+              </div>
+            </a>
+            <a class="support-icon" href="https://www.microsoft.com/en-us/download/details.aspx?id=48126" target="_blank">
+              <img src="/public/images/edge-icon.png" />
+              <div>
+                Microsoft Edge
+              </div>
+            </a>
+            <a class="support-icon" href="https://support.apple.com/downloads/safari" target="_blank">
+              <img src="/public/images/safari-icon.png" />
+              <div>
+                Safari
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <% include ./_layout/body-end.ejs %>
+  </body>
+</html>

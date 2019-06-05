@@ -1,0 +1,8 @@
+<script type="text/javascript">
+  // IE8 throws exception "Expected identifier, string or number"
+  // before loading the lib/browser-support-check.js
+  if (document.documentMode && document.documentMode < 9 &&
+    window.location && window.location.pathname !== '/not-supported') {
+    window.location = '/not-supported'
+  }
+</script>

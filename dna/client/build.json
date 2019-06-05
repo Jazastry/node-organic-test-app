@@ -1,0 +1,25 @@
+{
+  "dest": {
+    "build": "build/{version}",
+    "watch": "build/current",
+    "link": "public/release"
+  },
+  "assets": [
+    {
+      "src": "client/vendor/**/*.+(js|css|html)",
+      "dest": "vendor"
+    }
+  ],
+  "js": {
+    "src": "client/apps/**/*.bundle.js",
+    "webpack": "dna/client/webpack.config.js"
+  },
+  "modules": {
+    "src": "client/modules/**/index.module.js",
+    "webpack": "dna/client/webpack.config.js",
+    "dest": "modules"
+  },
+  "css": {
+    "src": "client/apps/**/*.bundle.css"
+  }
+}

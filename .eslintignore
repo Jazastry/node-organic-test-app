@@ -1,0 +1,6 @@
+node_modules/
+build/
+public/
+uploads/
+client/vendor/
+server/vendor/

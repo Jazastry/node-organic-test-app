@@ -1,0 +1,29 @@
+{
+  "extends": ["standard"],
+  "rules": {
+    "comma-dangle": [0],
+    "camelcase": [0],
+    "no-useless-escape": [0],
+    "no-path-concat": [0],
+    "no-new": [0],
+    "radix": [1, "always"],
+    "indent": ["error", 2, {"SwitchCase": 1, "MemberExpression": "off"}]
+  },
+  "globals": {
+    "describe": true,
+    "before": true,
+    "after": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "it": true,
+    "test": true,
+    "expect": true,
+    "xit": true,
+    "xdescribe": true,
+    "riot": true,
+    "oval": true,
+    "fetch": true,
+    "fixture": true,
+    "testHelper": true
+  }
+}

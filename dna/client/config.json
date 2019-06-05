@@ -1,0 +1,9 @@
+{
+  "isTestEnv" : true,
+  "apiendpoint": "/api",
+  "debug": false,
+  "fronturls": {
+    "landing": "/"
+  },
+  "appName": "Hellooo"
+}

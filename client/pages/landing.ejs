@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <% include ./_layout/head.ejs %>
+  <title><%=appName%></title>
+  <script src="<%= timestampUrl('/public/release/landing/index.bundle.js') %>"></script>
+  <link rel="stylesheet" type="text/css" href="<%= timestampUrl('/public/release/index.bundle.css') %>">
+  </head>
+  <body>
+    <div class="wrapper">
+      <x-header></x-header>
+      <div class='content'>
+        <div class='welcome-message'>Wellcome!</div>
+      </div>
+      <footer></footer>
+    </div>
+    <% include ./_layout/body-end.ejs %>
+  </body>
+</html>
